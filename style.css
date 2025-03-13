@@ -1,0 +1,125 @@
+.oben {
+    background-color: white;
+    overflow: hidden;
+    border-bottom: 1px solid gray;
+}
+
+.oben-logo {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.links {
+    float: right;
+    height: 5.813rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 100%;
+    padding: 0;
+}
+
+a {
+    background-color: white;
+    color: black;
+    padding: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    border-left: 1px solid gray;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    background-color: paleturquoise;
+}
+.button {
+    background-color: white;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid lightgrey;
+    box-shadow: 5px 5px 5px lightgrey;
+    text-transform: capitalize;
+}
+
+.button:hover {
+    background-color: paleturquoise;
+}
+
+
+
+.main {
+    padding: 45px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.main-left, .main-right {
+    width: 50%;
+}
+
+.text {
+    font-size: 150%;
+}
+
+.images{
+    column-count: 3;
+    column-gap: 16px;
+}
+.image {
+    column-span: 1;
+    width: 300px;
+    height: 350px;
+    border: 2px dashed lightgray;
+}
+
+.container {
+    background-color: white;
+    width: 100%;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px lightgrey;
+}
+
+.bars {
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    color: white;
+}
+
+.bar1 {
+    text-align: right;
+    background-color: seagreen;
+    width: 90%;
+}
+
+.bar2 {
+    text-align: right;
+    background-color: skyblue;
+    width: 80%;
+}
+
+.bar3 {
+    text-align: right;
+    background-color: red;
+    width: 65%;
+}
+
+.bar4 {
+    text-align: right;
+    background-color: grey;
+    width: 60%;
+}

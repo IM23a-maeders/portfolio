@@ -1,0 +1,35 @@
+.oben {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+.obenLogo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: steelblue;
+}
+
+@media (max-width: 768px) {
+    .oben {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .links {
+        margin-top: 10px;
+    }
+}
